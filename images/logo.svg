@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="130" viewBox="0 0 410 130">
+  <defs>
+    <filter id="glowLilac" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- plum icon: round fruit with a stem and a leaf -->
+  <path d="M58 30 C58 22 64 16 72 14" stroke="#75669F" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M62 24 C70 14 82 14 88 20 C80 28 70 30 62 24 Z" fill="#8C83A6"/>
+  <path d="M58 30 C36 28 22 46 24 68 C26 90 42 104 58 104 C74 104 90 90 92 68 C94 46 80 28 58 30 Z"
+        fill="#3E315F" stroke="#B89CFF" stroke-width="3" filter="url(#glowLilac)"/>
+  <path d="M58 34 C56 52 56 82 58 100" stroke="#75669F" stroke-width="2.4" fill="none"/>
+  <ellipse cx="42" cy="54" rx="6" ry="11" fill="#B89CFF" opacity="0.35" transform="rotate(20 42 54)"/>
+
+  <text x="112" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700"
+        fill="#B89CFF" filter="url(#glowLilac)">Plum</text>
+
+  <text x="113" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="3"
+        fill="#E58FD6">REDMINE THEME</text>
+</svg>
